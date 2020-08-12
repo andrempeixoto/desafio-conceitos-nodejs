@@ -53,7 +53,6 @@ app.put("/repositories/:id", (request, response) => {
 
   return response.json(repository);  
 
-
 });
 
 app.delete("/repositories/:id", (request, response) => {
@@ -85,5 +84,3 @@ app.post("/repositories/:id/like", (request, response) => {
 });
 
 module.exports = app;
-
-// app.listen(3333);
